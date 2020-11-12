@@ -1,3 +1,5 @@
+OpenFIDO to-csv pipeline
+
 This pipeline converts the contents of the input to CSV output
 
 INPUTS
@@ -11,3 +13,6 @@ OUTPUTS
 OPTIONS
 
 	--json-<option>=<value>    JSON reader options (see pandas.read_json documentation)
+	--csv-<option>=<value>     CSV writer options (see pandas.DataFrame to_csv documentation)
+
+
